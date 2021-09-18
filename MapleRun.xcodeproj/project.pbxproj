@@ -1,0 +1,916 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF78005B26F5A961003DBB96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78005A26F5A961003DBB96 /* AppDelegate.swift */; };
+		AF78005D26F5A961003DBB96 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78005C26F5A961003DBB96 /* GameViewController.swift */; };
+		AF78006026F5A961003DBB96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF78005E26F5A961003DBB96 /* Main.storyboard */; };
+		AF78006326F5A961003DBB96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF78006126F5A961003DBB96 /* LaunchScreen.storyboard */; };
+		AF78006826F5A961003DBB96 /* MapleRun.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AF78006726F5A961003DBB96 /* MapleRun.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AF78006E26F5A961003DBB96 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF78006C26F5A961003DBB96 /* Interface.storyboard */; };
+		AF78007526F5A961003DBB96 /* MapleRun Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AF78007426F5A961003DBB96 /* MapleRun Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AF78007A26F5A961003DBB96 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78007926F5A961003DBB96 /* InterfaceController.swift */; };
+		AF78007C26F5A961003DBB96 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78007B26F5A961003DBB96 /* ExtensionDelegate.swift */; };
+		AF78008526F5A961003DBB96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78008426F5A961003DBB96 /* AppDelegate.swift */; };
+		AF78008726F5A961003DBB96 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78008626F5A961003DBB96 /* GameViewController.swift */; };
+		AF78008A26F5A961003DBB96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF78008826F5A961003DBB96 /* Main.storyboard */; };
+		AF78008D26F5A961003DBB96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF78008B26F5A961003DBB96 /* LaunchScreen.storyboard */; };
+		AF78009626F5A961003DBB96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78009526F5A961003DBB96 /* AppDelegate.swift */; };
+		AF78009826F5A961003DBB96 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78009726F5A961003DBB96 /* GameViewController.swift */; };
+		AF78009B26F5A961003DBB96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF78009926F5A961003DBB96 /* Main.storyboard */; };
+		AF78009E26F5A961003DBB96 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF78004F26F5A960003DBB96 /* Actions.sks */; };
+		AF78009F26F5A961003DBB96 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF78004F26F5A960003DBB96 /* Actions.sks */; };
+		AF7800A026F5A961003DBB96 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF78004F26F5A960003DBB96 /* Actions.sks */; };
+		AF7800A126F5A961003DBB96 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF78005026F5A960003DBB96 /* GameScene.sks */; };
+		AF7800A226F5A961003DBB96 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF78005026F5A960003DBB96 /* GameScene.sks */; };
+		AF7800A326F5A961003DBB96 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF78005026F5A960003DBB96 /* GameScene.sks */; };
+		AF7800A426F5A961003DBB96 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF78005026F5A960003DBB96 /* GameScene.sks */; };
+		AF7800A526F5A961003DBB96 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78005126F5A960003DBB96 /* GameScene.swift */; };
+		AF7800A626F5A961003DBB96 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78005126F5A960003DBB96 /* GameScene.swift */; };
+		AF7800A726F5A961003DBB96 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78005126F5A960003DBB96 /* GameScene.swift */; };
+		AF7800A826F5A961003DBB96 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78005126F5A960003DBB96 /* GameScene.swift */; };
+		AF7800A926F5A961003DBB96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF78005226F5A961003DBB96 /* Assets.xcassets */; };
+		AF7800AA26F5A961003DBB96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF78005226F5A961003DBB96 /* Assets.xcassets */; };
+		AF7800AB26F5A961003DBB96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF78005226F5A961003DBB96 /* Assets.xcassets */; };
+		AF7800AC26F5A961003DBB96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF78005226F5A961003DBB96 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF78006926F5A961003DBB96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF78004A26F5A960003DBB96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF78006626F5A961003DBB96;
+			remoteInfo = "MapleRun watchOS App";
+		};
+		AF78007626F5A961003DBB96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF78004A26F5A960003DBB96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF78007326F5A961003DBB96;
+			remoteInfo = "MapleRun watchOS App Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF7800B226F5A961003DBB96 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AF78007526F5A961003DBB96 /* MapleRun Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7800B626F5A961003DBB96 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AF78006826F5A961003DBB96 /* MapleRun.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AF78004F26F5A960003DBB96 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		AF78005026F5A960003DBB96 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		AF78005126F5A960003DBB96 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AF78005226F5A961003DBB96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF78005726F5A961003DBB96 /* MapleRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapleRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF78005A26F5A961003DBB96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF78005C26F5A961003DBB96 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AF78005F26F5A961003DBB96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF78006226F5A961003DBB96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF78006426F5A961003DBB96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF78006726F5A961003DBB96 /* MapleRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapleRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF78006D26F5A961003DBB96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		AF78006F26F5A961003DBB96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF78007426F5A961003DBB96 /* MapleRun Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MapleRun Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF78007926F5A961003DBB96 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		AF78007B26F5A961003DBB96 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		AF78007D26F5A961003DBB96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF78008226F5A961003DBB96 /* MapleRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapleRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF78008426F5A961003DBB96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF78008626F5A961003DBB96 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AF78008926F5A961003DBB96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF78008C26F5A961003DBB96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF78008E26F5A961003DBB96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF78009326F5A961003DBB96 /* MapleRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapleRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF78009526F5A961003DBB96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF78009726F5A961003DBB96 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AF78009A26F5A961003DBB96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF78009C26F5A961003DBB96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF78009D26F5A961003DBB96 /* MapleRun_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MapleRun_macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF78005426F5A961003DBB96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF78007126F5A961003DBB96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF78007F26F5A961003DBB96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF78009026F5A961003DBB96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF78004926F5A960003DBB96 = {
+			isa = PBXGroup;
+			children = (
+				AF78004E26F5A960003DBB96 /* MapleRun Shared */,
+				AF78005926F5A961003DBB96 /* MapleRun iOS */,
+				AF78006B26F5A961003DBB96 /* MapleRun watchOS App */,
+				AF78007826F5A961003DBB96 /* MapleRun watchOS App Extension */,
+				AF78008326F5A961003DBB96 /* MapleRun tvOS */,
+				AF78009426F5A961003DBB96 /* MapleRun macOS */,
+				AF78005826F5A961003DBB96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF78004E26F5A960003DBB96 /* MapleRun Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AF78004F26F5A960003DBB96 /* Actions.sks */,
+				AF78005026F5A960003DBB96 /* GameScene.sks */,
+				AF78005126F5A960003DBB96 /* GameScene.swift */,
+				AF78005226F5A961003DBB96 /* Assets.xcassets */,
+			);
+			path = "MapleRun Shared";
+			sourceTree = "<group>";
+		};
+		AF78005826F5A961003DBB96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF78005726F5A961003DBB96 /* MapleRun.app */,
+				AF78006726F5A961003DBB96 /* MapleRun.app */,
+				AF78007426F5A961003DBB96 /* MapleRun Extension.appex */,
+				AF78008226F5A961003DBB96 /* MapleRun.app */,
+				AF78009326F5A961003DBB96 /* MapleRun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF78005926F5A961003DBB96 /* MapleRun iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AF78005A26F5A961003DBB96 /* AppDelegate.swift */,
+				AF78005C26F5A961003DBB96 /* GameViewController.swift */,
+				AF78005E26F5A961003DBB96 /* Main.storyboard */,
+				AF78006126F5A961003DBB96 /* LaunchScreen.storyboard */,
+				AF78006426F5A961003DBB96 /* Info.plist */,
+			);
+			path = "MapleRun iOS";
+			sourceTree = "<group>";
+		};
+		AF78006B26F5A961003DBB96 /* MapleRun watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				AF78006C26F5A961003DBB96 /* Interface.storyboard */,
+				AF78006F26F5A961003DBB96 /* Info.plist */,
+			);
+			path = "MapleRun watchOS App";
+			sourceTree = "<group>";
+		};
+		AF78007826F5A961003DBB96 /* MapleRun watchOS App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AF78007926F5A961003DBB96 /* InterfaceController.swift */,
+				AF78007B26F5A961003DBB96 /* ExtensionDelegate.swift */,
+				AF78007D26F5A961003DBB96 /* Info.plist */,
+			);
+			path = "MapleRun watchOS App Extension";
+			sourceTree = "<group>";
+		};
+		AF78008326F5A961003DBB96 /* MapleRun tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				AF78008426F5A961003DBB96 /* AppDelegate.swift */,
+				AF78008626F5A961003DBB96 /* GameViewController.swift */,
+				AF78008826F5A961003DBB96 /* Main.storyboard */,
+				AF78008B26F5A961003DBB96 /* LaunchScreen.storyboard */,
+				AF78008E26F5A961003DBB96 /* Info.plist */,
+			);
+			path = "MapleRun tvOS";
+			sourceTree = "<group>";
+		};
+		AF78009426F5A961003DBB96 /* MapleRun macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AF78009526F5A961003DBB96 /* AppDelegate.swift */,
+				AF78009726F5A961003DBB96 /* GameViewController.swift */,
+				AF78009926F5A961003DBB96 /* Main.storyboard */,
+				AF78009C26F5A961003DBB96 /* Info.plist */,
+				AF78009D26F5A961003DBB96 /* MapleRun_macOS.entitlements */,
+			);
+			path = "MapleRun macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF78005626F5A961003DBB96 /* MapleRun iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7800B726F5A961003DBB96 /* Build configuration list for PBXNativeTarget "MapleRun iOS" */;
+			buildPhases = (
+				AF78005326F5A961003DBB96 /* Sources */,
+				AF78005426F5A961003DBB96 /* Frameworks */,
+				AF78005526F5A961003DBB96 /* Resources */,
+				AF7800B626F5A961003DBB96 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF78006A26F5A961003DBB96 /* PBXTargetDependency */,
+			);
+			name = "MapleRun iOS";
+			productName = "MapleRun iOS";
+			productReference = AF78005726F5A961003DBB96 /* MapleRun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF78006626F5A961003DBB96 /* MapleRun watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7800B326F5A961003DBB96 /* Build configuration list for PBXNativeTarget "MapleRun watchOS App" */;
+			buildPhases = (
+				AF78006526F5A961003DBB96 /* Resources */,
+				AF7800B226F5A961003DBB96 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF78007726F5A961003DBB96 /* PBXTargetDependency */,
+			);
+			name = "MapleRun watchOS App";
+			productName = "MapleRun watchOS App";
+			productReference = AF78006726F5A961003DBB96 /* MapleRun.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		AF78007326F5A961003DBB96 /* MapleRun watchOS App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7800AF26F5A961003DBB96 /* Build configuration list for PBXNativeTarget "MapleRun watchOS App Extension" */;
+			buildPhases = (
+				AF78007026F5A961003DBB96 /* Sources */,
+				AF78007126F5A961003DBB96 /* Frameworks */,
+				AF78007226F5A961003DBB96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MapleRun watchOS App Extension";
+			productName = "MapleRun watchOS App Extension";
+			productReference = AF78007426F5A961003DBB96 /* MapleRun Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		AF78008126F5A961003DBB96 /* MapleRun tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7800BA26F5A961003DBB96 /* Build configuration list for PBXNativeTarget "MapleRun tvOS" */;
+			buildPhases = (
+				AF78007E26F5A961003DBB96 /* Sources */,
+				AF78007F26F5A961003DBB96 /* Frameworks */,
+				AF78008026F5A961003DBB96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MapleRun tvOS";
+			productName = "MapleRun tvOS";
+			productReference = AF78008226F5A961003DBB96 /* MapleRun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF78009226F5A961003DBB96 /* MapleRun macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7800BD26F5A961003DBB96 /* Build configuration list for PBXNativeTarget "MapleRun macOS" */;
+			buildPhases = (
+				AF78008F26F5A961003DBB96 /* Sources */,
+				AF78009026F5A961003DBB96 /* Frameworks */,
+				AF78009126F5A961003DBB96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MapleRun macOS";
+			productName = "MapleRun macOS";
+			productReference = AF78009326F5A961003DBB96 /* MapleRun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF78004A26F5A960003DBB96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					AF78005626F5A961003DBB96 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					AF78006626F5A961003DBB96 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					AF78007326F5A961003DBB96 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					AF78008126F5A961003DBB96 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					AF78009226F5A961003DBB96 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = AF78004D26F5A960003DBB96 /* Build configuration list for PBXProject "MapleRun" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF78004926F5A960003DBB96;
+			productRefGroup = AF78005826F5A961003DBB96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF78005626F5A961003DBB96 /* MapleRun iOS */,
+				AF78006626F5A961003DBB96 /* MapleRun watchOS App */,
+				AF78007326F5A961003DBB96 /* MapleRun watchOS App Extension */,
+				AF78008126F5A961003DBB96 /* MapleRun tvOS */,
+				AF78009226F5A961003DBB96 /* MapleRun macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF78005526F5A961003DBB96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7800A126F5A961003DBB96 /* GameScene.sks in Resources */,
+				AF78006026F5A961003DBB96 /* Main.storyboard in Resources */,
+				AF78009E26F5A961003DBB96 /* Actions.sks in Resources */,
+				AF78006326F5A961003DBB96 /* LaunchScreen.storyboard in Resources */,
+				AF7800A926F5A961003DBB96 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF78006526F5A961003DBB96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7800AA26F5A961003DBB96 /* Assets.xcassets in Resources */,
+				AF78006E26F5A961003DBB96 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF78007226F5A961003DBB96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7800A226F5A961003DBB96 /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF78008026F5A961003DBB96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7800A326F5A961003DBB96 /* GameScene.sks in Resources */,
+				AF78008A26F5A961003DBB96 /* Main.storyboard in Resources */,
+				AF78009F26F5A961003DBB96 /* Actions.sks in Resources */,
+				AF78008D26F5A961003DBB96 /* LaunchScreen.storyboard in Resources */,
+				AF7800AB26F5A961003DBB96 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF78009126F5A961003DBB96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF78009B26F5A961003DBB96 /* Main.storyboard in Resources */,
+				AF7800A426F5A961003DBB96 /* GameScene.sks in Resources */,
+				AF7800AC26F5A961003DBB96 /* Assets.xcassets in Resources */,
+				AF7800A026F5A961003DBB96 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF78005326F5A961003DBB96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7800A526F5A961003DBB96 /* GameScene.swift in Sources */,
+				AF78005D26F5A961003DBB96 /* GameViewController.swift in Sources */,
+				AF78005B26F5A961003DBB96 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF78007026F5A961003DBB96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7800A626F5A961003DBB96 /* GameScene.swift in Sources */,
+				AF78007C26F5A961003DBB96 /* ExtensionDelegate.swift in Sources */,
+				AF78007A26F5A961003DBB96 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF78007E26F5A961003DBB96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7800A726F5A961003DBB96 /* GameScene.swift in Sources */,
+				AF78008726F5A961003DBB96 /* GameViewController.swift in Sources */,
+				AF78008526F5A961003DBB96 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF78008F26F5A961003DBB96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7800A826F5A961003DBB96 /* GameScene.swift in Sources */,
+				AF78009826F5A961003DBB96 /* GameViewController.swift in Sources */,
+				AF78009626F5A961003DBB96 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF78006A26F5A961003DBB96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF78006626F5A961003DBB96 /* MapleRun watchOS App */;
+			targetProxy = AF78006926F5A961003DBB96 /* PBXContainerItemProxy */;
+		};
+		AF78007726F5A961003DBB96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF78007326F5A961003DBB96 /* MapleRun watchOS App Extension */;
+			targetProxy = AF78007626F5A961003DBB96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF78005E26F5A961003DBB96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF78005F26F5A961003DBB96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF78006126F5A961003DBB96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF78006226F5A961003DBB96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AF78006C26F5A961003DBB96 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF78006D26F5A961003DBB96 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		AF78008826F5A961003DBB96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF78008926F5A961003DBB96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF78008B26F5A961003DBB96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF78008C26F5A961003DBB96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AF78009926F5A961003DBB96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF78009A26F5A961003DBB96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF7800AD26F5A961003DBB96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF7800AE26F5A961003DBB96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AF7800B026F5A961003DBB96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MapleRun watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.networksu.MapleRun.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "MapleRun Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		AF7800B126F5A961003DBB96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MapleRun watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.networksu.MapleRun.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "MapleRun Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		AF7800B426F5A961003DBB96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = MapleRun_Extension;
+				INFOPLIST_FILE = "MapleRun watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = org.networksu.MapleRun.watchkitapp;
+				PRODUCT_NAME = MapleRun;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		AF7800B526F5A961003DBB96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = MapleRun_Extension;
+				INFOPLIST_FILE = "MapleRun watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = org.networksu.MapleRun.watchkitapp;
+				PRODUCT_NAME = MapleRun;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		AF7800B826F5A961003DBB96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MapleRun iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.networksu.MapleRun;
+				PRODUCT_NAME = MapleRun;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF7800B926F5A961003DBB96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MapleRun iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.networksu.MapleRun;
+				PRODUCT_NAME = MapleRun;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF7800BB26F5A961003DBB96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MapleRun tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.networksu.MapleRun;
+				PRODUCT_NAME = MapleRun;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.5;
+			};
+			name = Debug;
+		};
+		AF7800BC26F5A961003DBB96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MapleRun tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.networksu.MapleRun;
+				PRODUCT_NAME = MapleRun;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.5;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF7800BE26F5A961003DBB96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MapleRun macOS/MapleRun_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MapleRun macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = org.networksu.MapleRun;
+				PRODUCT_NAME = MapleRun;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AF7800BF26F5A961003DBB96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MapleRun macOS/MapleRun_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MapleRun macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = org.networksu.MapleRun;
+				PRODUCT_NAME = MapleRun;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF78004D26F5A960003DBB96 /* Build configuration list for PBXProject "MapleRun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7800AD26F5A961003DBB96 /* Debug */,
+				AF7800AE26F5A961003DBB96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF7800AF26F5A961003DBB96 /* Build configuration list for PBXNativeTarget "MapleRun watchOS App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7800B026F5A961003DBB96 /* Debug */,
+				AF7800B126F5A961003DBB96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF7800B326F5A961003DBB96 /* Build configuration list for PBXNativeTarget "MapleRun watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7800B426F5A961003DBB96 /* Debug */,
+				AF7800B526F5A961003DBB96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF7800B726F5A961003DBB96 /* Build configuration list for PBXNativeTarget "MapleRun iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7800B826F5A961003DBB96 /* Debug */,
+				AF7800B926F5A961003DBB96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF7800BA26F5A961003DBB96 /* Build configuration list for PBXNativeTarget "MapleRun tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7800BB26F5A961003DBB96 /* Debug */,
+				AF7800BC26F5A961003DBB96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF7800BD26F5A961003DBB96 /* Build configuration list for PBXNativeTarget "MapleRun macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7800BE26F5A961003DBB96 /* Debug */,
+				AF7800BF26F5A961003DBB96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF78004A26F5A960003DBB96 /* Project object */;
+}
